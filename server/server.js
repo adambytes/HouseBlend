@@ -2,14 +2,14 @@
 import express from 'express'
 // const path = require('path');
 //const {houseController} = require('../controllers/houseController.js')
-import houseController from '../controllers/houseController.js'
-import coffeeShopController from '../controllers/coffeeShopController.js'
-import censusController from '../controllers/censusController.js'
-import houseBlender from '../controllers/houseBlender.js'
+import dotenv from 'dotenv'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import dbController from '../controllers/dbController.js'
-import dotenv from 'dotenv';
+import censusController from './controllers/censusController.js'
+import coffeeShopController from './controllers/coffeeShopController.js'
+import dbController from './controllers/dbController.js'
+import houseBlender from './controllers/houseBlender.js'
+import houseController from './controllers/houseController.js'
 
 
 const app = express();
